@@ -27,6 +27,15 @@ li{
     font-size: 20px;
     margin: 2%;
     
+    
+}
+
+li > a{
+    text-decoration: none;
+}
+li >a:hover{
+    color: #E5989B;
+    
 }
 
 .fotosPandas{
