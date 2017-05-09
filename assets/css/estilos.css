@@ -52,10 +52,20 @@ li >a:hover{
     
     
 }
+.fotosPandas > div >span {
+    position: absolute;
+    left: auto;
+    padding-right: 1%;
+    color: #B5838D;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px white;
+}
 
 
 .fotosPandas > div > img{
-    height: 200px;    
+    height: 200px;  
+    margin: 10px;
 }
 
 .fotosPandas > div > span{
