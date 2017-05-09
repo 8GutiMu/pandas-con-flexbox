@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    color: #6D6875;
+    
+}
+
+body{
+    background-color: #FFB4A2;
+}
+
+header{
+    background-color: #B5838D;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    margin: 2%;
+    
+}
+
+.fotosPandas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    margin: 40px;
+}
+
+.fotosPandas > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+
+
+.fotosPandas > div > img{
+    height: 200px;    
+}
+
+.fotosPandas > div > span{
+    cursor: pointer;
+}
+
+.botonesPandas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesPandas > button{
+    padding: .5%;
+    margin: .5%;
+    width: 250px;
+    background-color: #FFCDB2;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.botonesPandas >button >a{
+    text-decoration: none;
+}
+
+.parrafosPanditas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.parrafosPanditas > p{
+    width: 40%;
+    margin: 5%;
+}
